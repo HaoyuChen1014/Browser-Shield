@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+    <title>Browser Shield</title>
+</head>
+<body>
+    <div id="app">
+        <div id="header">Browser Shield</div>
+        <img id="status-icon" src="" alt="Status Icon" hidden> <!-- Include this only once -->
+        <div id="status">Checking status...</div>
+        <input type="text" id="url-input" placeholder="Suspicious URL">
+        <div id="captcha-container">
+            <div id="captcha"></div>
+            <input type="text" id="captcha-input" placeholder="Enter CAPTCHA">
+        </div>
+        <button id="report-url">Report URL</button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

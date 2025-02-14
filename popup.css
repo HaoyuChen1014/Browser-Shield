@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    padding: 10px;
+    margin: 0;
+    background-color: #e9eff1;
+    color: #333;
+    width: 280px; /* Adjust the width as needed */
+    box-sizing: border-box;
+}
+
+#app {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#header {
+    font-size: 18px;
+    color: #21759b;
+    margin-bottom: 10px;
+}
+
+#status {
+    background-color: #dff0d8;
+    color: #3c763d;
+    padding: 10px;
+    border-radius: 5px;
+    display: block; /* Use block to fill the width of the container */
+    margin: 0 auto 10px; /* Added margin for spacing */
+}
+
+input[type="text"] {
+    width: 100%; /* Make input take full width of the popup */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%; /* Make button take full width of the popup */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5cb85c; /* Green for safe */
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+#captcha-container {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#captcha {
+    padding: 10px;
+    margin-right: 5px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    text-align: center;
+    min-width: 120px;
+}
+
+#captcha-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: auto;
+}
+
+button#report-url {
+    background-color: #d9534f; /* Red for reporting */
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    transform: translateY(1px);
+}

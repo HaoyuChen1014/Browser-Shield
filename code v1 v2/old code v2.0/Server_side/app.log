@@ -1,0 +1,45 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-343-716
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-343-716
+INFO:werkzeug:127.0.0.1 - - [23/Nov/2023 18:33:48] "GET /getblacklist.json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Nov/2023 18:33:48] "[33mGET /getwhitelist.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Nov/2023 18:33:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Nov/2023 18:33:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Nov/2023 18:33:55] "POST /extract_features HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Nov/2023 18:34:16] "[35m[1mPOST /submit_suspicious_url HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Nov/2023 18:35:55] "[35m[1mPOST /submit_suspicious_url HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'F:\\Adelaide\\2023 T3\\Project Êµ²Ù\\Server_side\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-343-716
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-343-716
+INFO:root:Suspicious URL submitted: https://github.com/microsoft/vscode-mssql/blob/main/CHANGELOG.md
+INFO:werkzeug:127.0.0.1 - - [23/Nov/2023 18:37:52] "POST /submit_suspicious_url HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Nov/2023 18:38:00] "[33mGET /getwhitelist.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Nov/2023 18:38:00] "GET /getblacklist.json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Nov/2023 18:38:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Nov/2023 18:38:01] "POST /extract_features HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Nov/2023 18:38:11] "[33mGET /getwhitelist.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Nov/2023 18:38:11] "GET /getblacklist.json HTTP/1.1" 200 -
+INFO:root:Suspicious URL submitted: http://127.0.0.1:5000/
+INFO:werkzeug:127.0.0.1 - - [23/Nov/2023 18:38:18] "POST /submit_suspicious_url HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Nov/2023 18:38:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Nov/2023 18:38:23] "POST /extract_features HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat

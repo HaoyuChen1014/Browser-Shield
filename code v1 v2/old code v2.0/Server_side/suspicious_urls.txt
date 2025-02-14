@@ -1,0 +1,2 @@
+https://github.com/microsoft/vscode-mssql/blob/main/CHANGELOG.md
+http://127.0.0.1:5000/

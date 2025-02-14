@@ -1,0 +1,53 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>URL Checker</title>
+    <style>
+        body {
+            width: 250px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 10px;
+        }
+
+        .message {
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+
+        .warning {
+            background-color: #ffe5e5; /* light red */
+            color: #cc0000; /* dark red */
+            font-weight: bold;
+        }
+
+        .safe {
+            background-color: #e5ffe5; /* light green */
+            color: #00cc00; /* dark green */
+            font-weight: bold;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h2>URL Checker</h2>
+    <div id="warning" class="message warning hidden">
+        Warning: This site might be unsafe!
+    </div>
+    <div id="safe" class="message safe hidden">
+        This site appears to be safe.
+    </div>
+
+    <!-- URL submission form -->
+    <div>
+        <input type="text" id="urlInput" placeholder="Enter a suspicious URL">
+        <button id="submitUrl">Submit URL</button>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
